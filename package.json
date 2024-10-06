@@ -4,7 +4,9 @@
   "description": "backend of login form",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "built" : "npm install --omit=dev"
+    
   },
   "author": "avi",
   "license": "ISC",
