@@ -22,7 +22,7 @@ app.post('/Signup', async (req, res) => {
     }
     const hashedPassword = await bcrypt.hash(password, 10);
     const newUser = await user.create({ username, password: hashedPassword });
-    
+    console.log(newUser)
     res.status(201).json({ message: 'User registered successfully' });
 });
 
