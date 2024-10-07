@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "built" : "npm install --omit=dev"
-    
+    "built": "npm install --omit=dev"
   },
   "author": "avi",
   "license": "ISC",
@@ -17,6 +16,7 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.9.0",
     "mongoose": "^8.7.0",
     "nodemon": "^3.1.7"
   }
