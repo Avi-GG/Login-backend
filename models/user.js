@@ -2,8 +2,6 @@ const mongoose = require('mongoose');
 require('dotenv').config({ path: '../.env' });
 
 mongoose.connect(process.env.DATABASE_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
     ssl: true, // Enable SSL
 });
 // console.log(dbURL);
